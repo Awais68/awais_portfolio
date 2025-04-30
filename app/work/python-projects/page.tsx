@@ -24,7 +24,7 @@ const projects = [
     description:
       "The Streamlit data analysis application is a software tool designed to collect, process, visualize, and interpret data to help users uncover patterns, trends, and insights. It typically includes features for importing datasets, cleaning and transforming data, running statistical or machine learning models, and presenting results through charts, tables, or dashboards. These applications are widely used in fields like business, healthcare, finance, and research for informed decision-making..",
       stack: [{ name: "Python" }, { name: "Streamlit" }, ],
-    image: "/assets/images/py2.png",
+    image: "/assets/images/py1.png",
     live: "https://dataanalysisappasgrowthmind-01.streamlit.app/",
     github: "https://github.com/awais68/data_analysis_app_as_growth_mind/blob/main/app.py",
   },
@@ -36,7 +36,7 @@ const projects = [
       "A BMI (Body Mass Index) calculator is a simple tool that measures a person's body fat based on their height and weight. It calculates a numeric value (BMI) using the formula BMI = weight (kg) / height² (m²) The result helps classify a person as underweight, normal weight, overweight, or obese, offering a general indication of health related to body weight.",
     stack: [{ name: "Python" }, { name: "Streamlit" }, ],
 
-    image: "/assets/images/py1.png",
+    image: "/assets/images/py2.png",
     live: "https://bmicalculationapp.streamlit.app/",
     github: "https://github.com/awais68/bmi_calculator/blob/main/main.py",
   },

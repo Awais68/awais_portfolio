@@ -3,7 +3,7 @@
 import {
   FaHtml5,
   FaCss3,
-  FaJs,
+  // FaJs,
   FaReact,
   FaFigma,
   FaPython,

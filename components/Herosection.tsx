@@ -57,7 +57,7 @@ const Herosection = () => {
             <div className="flex items-center flex-col xl:flex-row gap-8">
 
               <Button variant="outline" size="lg" className="uppercase flex items-center gap-3">
-                <a href="/cv.pdf"><span className="flex gap-4 hover:text-base">Download CV<FiDownload className="text-xl hover:text-2xl" /></span></a>
+                <a href="/CV.pdf"><span className="flex gap-4 hover:text-base">Download CV<FiDownload className="text-xl hover:text-2xl" /></span></a>
               </Button>
               <div className="mb-8 xl:mb-0 flex gap-8  ">
 

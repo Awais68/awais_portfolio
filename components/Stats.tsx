@@ -3,7 +3,7 @@ import CountUp from "react-countup";
 
 const stats = [
   {
-    num: 10,
+    num: 2,
     text: "Years of tutor experience",
   },
   {
@@ -37,9 +37,8 @@ const Stats = () => {
                   className="text-4xl xl:text-6xl font-extrabold"
                 />
                 <p
-                  className={`${
-                    item.text.length < 15 ? "max-w-[100px]" : "max-w-[150px]"
-                  } leading-snug text-white/80`}
+                  className={`${item.text.length < 15 ? "max-w-[100px]" : "max-w-[150px]"
+                    } leading-snug text-white/80`}
                 >
                   {item.text}{" "}
                 </p>
