@@ -18,6 +18,17 @@ import WorkSliderBtn from "@/components/WorkSliderBtn";
 
 const projects = [
   {
+    num: "00",
+    caterogy: "🖥️ Front-End",
+    title: "E-Commerce Admin Dashboard",
+    description:
+      "An e-commerce admin dashboard web built with Next.js and Tailwind CSS. It features dynamic routing, responsive design, and optimized performance using server-side rendering and reusable components.",
+    stack: [{ name: "Next.js" }, { name: "Tailwindcss" }, { name: "Shadcn" }, { name: "Typescript" }],
+    image: "/assets/project/main.png",
+    live: "https://ecommerce-topaz-beta-13.vercel.app/",
+    github: "https://github.com/Awais68/dashboard",
+  },
+  {
     num: "01",
     caterogy: "🖥️ Full Stack ",
     title: "Bandage",
