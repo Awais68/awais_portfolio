@@ -1,12 +1,33 @@
+"use client"
+
 import Herosection from '@/components/Herosection'
 import Services from '@/app/services/page'
-import React from 'react'
+import React, { useEffect } from 'react'
 import Resume from './resume/page'
 import WorkDisplayPage from './work/page'
 import Contact from './contact/page'
 import Footer from '@/components/Footer'
+import AOS from "aos"
+import "aos/dist/aos.css"
+
+
+
 
 const Home = () => {
+
+
+  useEffect(() => {
+    AOS.init({
+      easing: "ease-in-out-cubic",
+      duration: 1200,
+      delay: 100,
+      mirror: true,
+      anchorPlacement: "bottom-bottom",
+      offset: 160,
+    })
+    AOS.refresh()
+  }, [])
+
   return (
     <div>
       <Herosection />
@@ -33,7 +54,7 @@ const Home = () => {
         {/* Heading */}
         <h1 className="text-4xl font-extrabold mt-20 text-white hover:text-accent  mb-4">My Expertise & Experience</h1>
         <p className="text-lg text-gray-400 max-w-4xl mx-auto mb-20">
-        "With extensive experience, I specialize in creating scalable web apps, robust backends, and intuitive UIs—explore my resume to see the skills I've developed.
+          "With extensive experience, I specialize in creating scalable web apps, robust backends, and intuitive UIs—explore my resume to see the skills I've developed.
         </p>
 
         {/* Your Services Component */}
@@ -55,15 +76,15 @@ const Home = () => {
         {/* Heading */}
         <h1 className="text-4xl font-extrabold mt-20 text-white hover:text-accent  mb-4">Get In Touch</h1>
         <p className="text-lg text-gray-400 max-w-3xl mx-auto mb-12">
-        I'm always open to discussing new projects, opportunities, or collaborations. Feel free to reach out to me, and I'll get back to you as soon as possible.
+          I'm always open to discussing new projects, opportunities, or collaborations. Feel free to reach out to me, and I'll get back to you as soon as possible.
         </p>
 
         {/* Your Services Component */}
         <Contact />
       </div>
-      
-<Footer />
- 
+
+      <Footer />
+
 
     </div>
   )

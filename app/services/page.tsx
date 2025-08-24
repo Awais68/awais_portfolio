@@ -21,7 +21,7 @@ const services = [
   },
   {
     num: "03",
-    title: "Junior Web & App Developer",
+    title: "Web & App Developer",
     description:
       "As a Junior Web & App Developer, I bring enthusiasm and a growing expertise in building dynamic websites and mobile apps using HTML, CSS, JavaScript, and Python. Eager to learn and contribute, I create functional, user-centric solutions while honing my skills in collaborative environments.",
     href: "",

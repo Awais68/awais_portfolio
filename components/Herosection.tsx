@@ -33,11 +33,11 @@ const Herosection = () => {
                   options={{
                     strings: [
                       "Full Stack Developer!!",
-                      "Front-end Developer!!",
-                      "Junior Web & App Developer",
+                      "AI Developer",
+                      "Web & App Developer",
                       "Python Programmer!!",
                       "Aspiring Python Developer",
-                      "Django Speacilist",
+                      "Django Specialist",
                       "Web Developer!!",
                     ],
                     autoStart: true,
@@ -62,7 +62,7 @@ const Herosection = () => {
               <div className="mb-8 xl:mb-0 flex gap-8  ">
 
                 <Link href="https://github.com/Awais68" className="Link">  <FaGithub /> </Link>
-                <Link href="https://www.linkedin.com/in/muhammad-hamza-a56b12300/" className="Link"> <FaLinkedin /></Link>
+                <Link href="https://www.linkedin.com/in/awais-niaz768/" className="Link"> <FaLinkedin /></Link>
                 <Link href="https://www.instagram.com" className="Link"> <FaInstagram /></Link>
                 <Link href="https://x.com/" className="Link"> <FaXTwitter /></Link>
               </div>
@@ -70,7 +70,9 @@ const Herosection = () => {
 
           </div>
           {/* photo */}
-          <div className="order-1 xl:order-none mb-8 xl:mb-0">
+          <div className="order-1 xl:order-none mb-8 xl:mb-0" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
             <Photo />
           </div>
 

@@ -18,7 +18,18 @@ import WorkSliderBtn from "@/components/WorkSliderBtn";
 
 const projects = [
   {
-    num: "00",
+    num: "01",
+    caterogy: "🖥️ Full Stack",
+    title: "LMS AL-Quran Institute Online",
+    description:
+      "AL-Quran Institute Online web built with Next.js and Tailwind CSS. It features dynamic routing, responsive design, and optimized performance using server-side rendering and reusable components.",
+    stack: [{ name: "Next.js" }, { name: "Express.js" }, { name: "Node.js" }, { name: "MongoDB" }],
+    image: "/assets/project/p1p.png",
+    live: "https://alquraninstituteonline.com/",
+    github: "https://github.com/Awais68/al-quran-institute-academy-frontend",
+  },
+  {
+    num: "02",
     caterogy: "🖥️ Front-End",
     title: "E-Commerce Admin Dashboard",
     description:
@@ -29,7 +40,18 @@ const projects = [
     github: "https://github.com/Awais68/dashboard",
   },
   {
-    num: "01",
+    num: "03",
+    caterogy: "🖥️ Front-End",
+    title: "WorkOut Companion",
+    description:
+      "A workout companion app built with Next.js and Tailwind CSS. It features dynamic routing, responsive design, and optimized performance using server-side rendering and reusable components.",
+    stack: [{ name: "Next.js" }, { name: "Tailwindcss" }, { name: "Shadcn" }, { name: "Typescript" }],
+    image: "/assets/project/workout.png",
+    live: "https://body-building-web.vercel.app/",
+    github: "https://github.com/Awais68/body_building_Web",
+  },
+  {
+    num: "04",
     caterogy: "🖥️ Full Stack ",
     title: "Bandage",
     description:
@@ -40,7 +62,7 @@ const projects = [
     github: "https://github.com/Awais68/bandage",
   },
   {
-    num: "02",
+    num: "05",
     caterogy: "🖥️ Frontend ",
     title: " MicroFinance For Saylani",
     description:
@@ -51,7 +73,7 @@ const projects = [
     github: "https://github.com/Awais68/smit-final-hackathon",
   },
   {
-    num: "03",
+    num: "06",
     caterogy: "🖥️ Frontend ",
     title: "Static Resume",
     description:
@@ -61,85 +83,6 @@ const projects = [
     live: "https://my-resume-done.vercel.app/",
     github: "https://github.com/Awais68/my-resume/tree/main",
   },
-  // {
-  //   num: "04",
-  //   caterogy: "🖥️ Next.Js ",
-  //   title: "GIAIC Clone",
-  //   description:
-  //     "A responsive website clone of the Global Institute of Artificial Intelligence and Computing, showcasing IT courses. Built with Next.js, custom CSS, and Tailwind CSS for a mobile-friendly design, the clone features dynamic routing and a clean, user-friendly interface.",
-  //   stack: [{ name: "Next.js" }, { name: "Tailwindcss" },],
-  //   image: "/assets/project/p4.png",
-  //   live: "https://giaic-clone-ten.vercel.app/",
-  //   github: "https://github.com/faryal16/GIAIC_Clone.git",
-  // },
-  // {
-  //   num: "05",
-  //   caterogy: "🖥️ UI/UX Design ",
-  //   title: "Grid Setup in Practice.",
-  //   description:
-  //     "How to manage position of an element using Grid Tought By BILAL Fareed at GIAIC.",
-  //   stack: [{ name: "Next.js" }, { name: "Tailwindcss" }, ],
-  //   image: "/assets/project/p5.png",
-  //   live: "https://next-hello-world-y1u4-git-main-hamzajiis-projects.vercel.app/",
-  //   github: "https://github.com/Awais68/next-hello-world/tree/main",
-  // },
-  // {
-  //   num: "06",
-  //   caterogy: "🖥️ Web Site ",
-  //   title: "",
-  //   description:
-  //     "A clean and modern landing page design for a SaaS product, featuring a minimalist layout with clear call-to-action buttons, product features, and client testimonials. Built with Next.js and Tailwind CSS, it provides an engaging user experience with a responsive design and smooth interactions.",
-  //   stack: [{ name: "Next.js" }, { name: "Tailwindcss" }, { name: "figma" },],
-  //   image: "/assets/project/p6.png",
-  //   live: "https://graceful-profiterole-d85c34.netlify.app/",
-  //   github: "https://github.com/Awais68/Salon/tree/main",
-  // },
-  // {
-  //   num: "07",
-  //   caterogy: "🖥️ Self-Improvement ",
-  //   title: "Blog - A Productive Mindset",
-  //   description:
-  //     "A blog that explores strategies, habits, and tools for cultivating a productive mindset. It offers practical tips to enhance focus, motivation, and efficiency, helping readers build sustainable work habits and achieve their goals",
-  //   stack: [{ name: "Next.js" }, { name: "Tailwindcss" },],
-  //   image: "/assets/project/p7.png",
-  //   live: "https://my-first-blog-a-productive-mindset.vercel.app/",
-  //   github: "https://github.com/faryal16/MY_First_Blog_A_productive_mindset.git",
-  // },
-
-  // {
-  //   num: "08",
-  //   caterogy: "🖥️ Sanity CMS ",
-  //   title: "Parakh Jewelers",
-  //   description:
-  //     "A sleek, responsive e-commerce website for Parakh Jewelers, built with Next.js, Sanity CMS, and Tailwind CSS. The site offers a dynamic and engaging shopping experience, featuring product listings, detailed descriptions, and an easy-to-use checkout system. With Sanity CMS, the content is easily manageable, allowing for seamless updates to product information and imagery.",
-  //   stack: [{ name: "Next.js" }, { name: "Tailwindcss" }, { name: "Sanity CMS" }],
-  //   image: "/assets/project/p8.png",
-  //   live: "https://parakh-jewellars.vercel.app/",
-  //   github: "https://github.com/faryal16/Parakh_Jewellars.git",
-  // },
-  // {
-  //   num: "09",
-  //   caterogy: "🖥️ API Integration ",
-  //   title: "Noor’s Kitchen App",
-  //   description:
-  //     "A recipe app built with Next.js and integrated with an external API to provide a wide variety of recipes. Users can explore and search for recipes, view detailed instructions, ingredients, and nutritional information. The app offers a smooth, responsive user experience with a clean design powered by Tailwind CSS, making it easy to find and save favorite recipes.",
-  //   stack: [{ name: "Next.js" }, { name: "Tailwindcss" },],
-  //   image: "/assets/project/p9.png",
-  //   live: "https://noor-s-kitchen.vercel.app/",
-  //   github: "https://github.com/faryal16/Noor-s_Kitchen.git",
-  // },
-  // {
-  //   num: "10",
-  //   caterogy: "🖥️ Authentication ",
-  //   title: "Hekto Admin Dashboard",
-  //   description:
-  //     "A powerful admin dashboard for managing content, users, and data, built with Next.js. It features integrated authentication for secure access and Sanity CMS for managing and displaying dynamic content. The dashboard offers a clean, intuitive UI with functionalities such as user management, content creation, and real-time updates, ensuring smooth admin operations and content flexibility.",
-  //   stack: [{ name: "Next.js" }, { name: "Tailwindcss" }, { name: "Sanity CMS" }],
-  //   image: "/assets/project/p10.png",
-  //   live: "https://hekto-admin-dashboard.vercel.app/admin/dashboard",
-  //   github: "https://github.com/faryal16/Hekto_Admin_Dashboard.git",
-  // },
-
 
 
 ];
