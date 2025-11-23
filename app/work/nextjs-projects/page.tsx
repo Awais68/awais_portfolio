@@ -18,6 +18,17 @@ import WorkSliderBtn from "@/components/WorkSliderBtn";
 
 const projects = [
   {
+    num: "00",
+    caterogy: "🖥️ Full Stack",
+    title: "School LMS ",
+    description:
+      "School LMS web built with Next.js and Tailwind CSS. It features dynamic routing, responsive design, and optimized performance using server-side rendering and reusable components.",
+    stack: [{ name: "Next.js" }, { name: "Express.js" }, { name: "Node.js" }, { name: "MongoDB" }, { name: "Google Gemini" }],
+    image: "/assets/project/lms.png",
+    live: "https://school-lms-frontend-ten.vercel.app/",
+    github: "https://github.com/Awais68/school_lms_frontend/tree/main",
+  },
+  {
     num: "01",
     caterogy: "🖥️ Full Stack",
     title: "LMS AL-Quran Institute Online",
@@ -82,6 +93,17 @@ const projects = [
     image: "/assets/project/p3.png",
     live: "https://my-resume-done.vercel.app/",
     github: "https://github.com/Awais68/my-resume/tree/main",
+  },
+  {
+    num: "07",
+    caterogy: "🖥️ Fully Controlled  ",
+    title: " Calculator App",
+    description:
+      "A fast  Calculate  App .",
+    stack: [{ name: "Next.js" }, { name: "Tailwindcss" },],
+    image: "/assets/project/calculator.png",
+    live: "https://as-calculator.onrender.com/",
+    github: "https://github.com/Awais68/calculator_qwen/tree/001-python-calculator",
   },
 
 

@@ -43,8 +43,8 @@ const WorkDisplayPage = () => {
           animate="show"
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12"
         >
-          {/* HTML, CSS, JS Section */}
-          <Link href="/work/html-projects">
+          {/*AI SECTION */}
+          <Link href="/work/ai-projects">
             <motion.div
               variants={card}
               whileHover={{ scale: 1.05 }}
@@ -52,15 +52,16 @@ const WorkDisplayPage = () => {
               transition={{ type: "spring", stiffness: 300 }}
               className="bg-gray-800 p-6 rounded-xl shadow-lg flex flex-col justify-between h-full cursor-pointer"
             >
-              <h2 className="text-2xl font-semibold text-white mb-4">HTML, CSS, & JavaScript</h2>
+              <h2 className="text-2xl font-semibold text-white mb-4">AI Projects & n8n Automation </h2>
               <p className="text-white/60 mb-4">
-                I build interactive and visually appealing websites using HTML, CSS, and JavaScript. I focus on responsive design, accessibility, and performance optimization.
+                I build interactive AI Chatbots, AI Agent and Automation through n8n, Agent Builder OpenAI Platform.  I focus on Scalability design, accessibility, and performance & Cost optimization.
               </p>
               <p className="text-accent font-semibold hover:underline">
-                Explore HTML/CSS/JS Projects
+                Explore AI Projects & n8n Automation
               </p>
             </motion.div>
           </Link>
+
 
           {/* Next.js & Tailwind CSS Section */}
           <Link href="/work/nextjs-projects">
@@ -96,6 +97,24 @@ const WorkDisplayPage = () => {
               </p>
               <p className="text-accent font-semibold hover:underline">
                 Explore Python Projects
+              </p>
+            </motion.div>
+          </Link>
+          {/* HTML, CSS, JS Section */}
+          <Link href="/work/html-projects">
+            <motion.div
+              variants={card}
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.98 }}
+              transition={{ type: "spring", stiffness: 300 }}
+              className="bg-gray-800 p-6 rounded-xl shadow-lg flex flex-col justify-between h-full cursor-pointer"
+            >
+              <h2 className="text-2xl font-semibold text-white mb-4">HTML, CSS, & JavaScript</h2>
+              <p className="text-white/60 mb-4">
+                I build interactive and visually appealing websites using HTML, CSS, and JavaScript. I focus on responsive design, accessibility, and performance optimization.
+              </p>
+              <p className="text-accent font-semibold hover:underline">
+                Explore HTML/CSS/JS Projects
               </p>
             </motion.div>
           </Link>

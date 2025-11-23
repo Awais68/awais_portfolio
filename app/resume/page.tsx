@@ -8,7 +8,7 @@ import {
   FaFigma,
   FaPython,
 } from "react-icons/fa";
-import { SiTailwindcss, SiNextdotjs, SiMongodb, SiMysql, SiFirebase, SiDjango, SiFastapi, SiNodedotjs, SiGithub, SiPostman, SiTypescript } from "react-icons/si";
+import { SiTailwindcss, SiNextdotjs, SiMongodb, SiMysql, SiFirebase, SiDjango, SiFastapi, SiNodedotjs, SiGithub, SiPostman, SiTypescript, SiN8N } from "react-icons/si";
 
 
 // about data
@@ -42,7 +42,7 @@ const about = {
       fieldName: "LinkedIn",
       fieldValue: (
         <a
-          href="https://www.linkedin.com/in/muhammad-hamza-a56b12300/"
+          href="https://www.linkedin.com/in/awais-niaz768/"
           target="_blank"
           rel="noopener noreferrer"
           style={{ textDecoration: "none", color: "inherit" }}
@@ -220,6 +220,18 @@ const skills = {
       icon: <SiPostman />,
       name: "Postman Testing Tool",
     },
+    {
+      icon: <SiN8N />,
+      name: "n8n Automation",
+    },
+    {
+      icon: <SiFastapi />,
+      name: "API Development",
+    },
+    {
+      icon: <SiDjango />,
+      name: "Backend Development",
+    }
   ],
 };
 

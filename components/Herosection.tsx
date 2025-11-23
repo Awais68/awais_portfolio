@@ -34,10 +34,11 @@ const Herosection = () => {
                     strings: [
                       "Full Stack Developer!!",
                       "AI Developer",
+                      "n8n Automation Developer",
+                      "MERN Stack Developer",
+                      "Agent Builder OpenAI Developer",
                       "Web & App Developer",
                       "Python Programmer!!",
-                      "Aspiring Python Developer",
-                      "Django Specialist",
                       "Web Developer!!",
                     ],
                     autoStart: true,

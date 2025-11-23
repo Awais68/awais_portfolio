@@ -19,59 +19,62 @@ import WorkSliderBtn from "@/components/WorkSliderBtn";
 const projects = [
   {
     num: "01",
-    caterogy: "🖥️ Frontend ",
-    title: "Beauty Salon ",
+    caterogy: " Agent ",
+    title: "Planner Agent  ",
     description:
-      "Beauty Pourlor Web by HTML, CSS and Javascript.Best Beauty Services app freelance services online.  Your Beauty is Priorty First  and get it quickly done and delivered remotely online.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/assets/images/project1.png",
-    live: "https://graceful-profiterole-d85c34.netlify.app/",
-    github: "https://github.com/Awais68/Salon",
+      "Best Beauty Services app freelance services online.  Your satisfaction is Priorty First  and get it quickly done and delivered remotely online.",
+    stack: [{ name: "Agent Builder OpenAI Platform" }, { name: "ChatKit" }, { name: "Python" }],
+    image: "/assets/images/planner2.png",
+    live: "https://planner-jade-nine.vercel.app/",
+    github: "https://github.com/Awais68/planner/tree/main",
   },
   {
     num: "02",
-    caterogy: "🖥️ Frontend ",
-    title: "E-Commerce",
+    caterogy: "🖥️ ChatBot ",
+    title: "ChatGPT Like ChatBot ",
     description:
-      "A Simple E-commerce web using HMTL , css javaScript",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
+      "A Simple Chatbot Like chatGPT using Agent Builder OpenAI Platform and chatkit.",
+    stack: [{ name: "ChainLit" }, { name: "Agent Builder" }, { name: "Python" }],
     image: "/assets/images/project2.png",
-    live: "https://ecommerce-paramount.vercel.app/",
-    github: "https://github.com/Awais68/paramount/tree/maint",
+    live: "https://chatbot-chainlit-gbyv.onrender.com/",
+    github: "https://github.com/Awais68/chatbot_chainlit/tree/main",
   },
   {
-    num: "03",
-    caterogy: "🖥️ Frontend ",
-    title: "Counter App",
-    description:
-      "Counter App Like Tasbeeh Counter using Event Loop.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/assets/images/project3.png",
-    live: "https://javabyawa.netlify.app/simple%20counter/app",
-    github: "https://github.com/faryal16/Milestone02-Dynamic-resume-builder.git",
-  },
-  {
-    num: "04",
-    caterogy: "🖥️ Frontend ",
-    title: "Calculator",
-    description:
-      "Simple Manual Calculator With 100% Accuracy...",
-    stack: [{ name: "HTML CSS JAVASCRIPT" }],
-    image: "/assets/images/project4.png",
-    live: "https://javabyawa.netlify.app/calculator/",
-    github: "https://github.com/Awais68/JavaS/tree/main/calculator",
-  },
-  {
-    num: "05",
-    caterogy: "🖥️ Frontend ",
-    title: "DIGITAL CLOCK",
-    description:
-      "DIGITAL CLOCK",
-    stack: [{ name: "HTML CSS JAVASCRIPT" }],
-    image: "/assets/images/projects5.jpg",
-    live: "https://javabyawa.netlify.app/clock/app",
-    github: "https://github.com/Awais68/JavaS/tree/main/clock",
-  },
+
+  }
+  // {
+  //   num: "03",
+  //   caterogy: "🖥️ Frontend ",
+  //   title: "Counter App",
+  //   description:
+  //     "Counter App Like Tasbeeh Counter using Event Loop.",
+  //   stack: [{ name: "Chainlit" }, { name: "Css 3" }, { name: "Javascript" }],
+  //   image: "/assets/images/project3.png",
+  //   live: "https://javabyawa.netlify.app/simple%20counter/app",
+  //   github: "https://github.com/faryal16/Milestone02-Dynamic-resume-builder.git",
+  // },
+  // {
+  //   num: "04",
+  //   caterogy: "🖥️ Frontend ",
+  //   title: "Calculator",
+  //   description:
+  //     "Simple Manual Calculator With 100% Accuracy...",
+  //   stack: [{ name: "HTML CSS JAVASCRIPT" }],
+  //   image: "/assets/images/project4.png",
+  //   live: "https://javabyawa.netlify.app/calculator/",
+  //   github: "https://github.com/Awais68/JavaS/tree/main/calculator",
+  // },
+  // {
+  //   num: "05",
+  //   caterogy: "🖥️ Frontend ",
+  //   title: "DIGITAL CLOCK",
+  //   description:
+  //     "DIGITAL CLOCK",
+  //   stack: [{ name: "HTML CSS JAVASCRIPT" }],
+  //   image: "/assets/images/projects5.jpg",
+  //   live: "https://javabyawa.netlify.app/clock/app",
+  //   github: "https://github.com/Awais68/JavaS/tree/main/clock",
+  // },
   // {
   //   num: "06",
   //   caterogy: "🖥️ Frontend ",
