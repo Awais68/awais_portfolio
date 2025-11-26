@@ -39,9 +39,8 @@ const projects = [
     live: "https://chatbot-chainlit-gbyv.onrender.com/",
     github: "https://github.com/Awais68/chatbot_chainlit/tree/main",
   },
-  {
-
-  }
+  // {
+  //   num: "03",
   // {
   //   num: "03",
   //   caterogy: "🖥️ Frontend ",
@@ -122,12 +121,12 @@ const Work = () => {
               <p className="text-white/60">{project.description}</p>
               {/* stack */}
               <ul className="flex gap-4">
-                {project.stack.map((item, index) => {
+                {project.stack?.map((item, index) => {
                   return (
                     <li key={index} className="text-xl text-accent">
                       {item.name}
                       {/* remover the last comma */}
-                      {index !== project.stack.length - 1 && ","}
+                      {index !== project.stack!.length - 1 && ","}
                     </li>
                   );
                 })}
